@@ -13,3 +13,5 @@ console.dir(Blockchain, { depth: null })
 console.log('Balance of Koyo : ' + Blockchain.getBalance('koyo'));
 console.log('Balance of Address 1 : ' + Blockchain.getBalance('address1'));
 console.log('Balance of Address 2 : ' + Blockchain.getBalance('address2'));
+console.log('-----------------------------------------------------------');
+console.log('Validity of Blockchain : ' + Blockchain.checkChainValidity());
